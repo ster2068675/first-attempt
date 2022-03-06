@@ -37,10 +37,11 @@
     padding: 0;
   }
 
-  /*Trying to make the nav look more balanced, will come back to later*/
+  /*Trying to make the nav look more balanced, will come back to later
   nav ul li{
-    /*margin-bottom: 10px;*/
+    margin-bottom: 10px;
   }
+  */
 
   nav ul li:hover {
     background-color: cornflowerblue;
