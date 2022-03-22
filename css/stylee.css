@@ -5,39 +5,6 @@
   body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(122, 141, 170);
-    /*the flex box started stretching past the browser and this was the only quick fix that's "worked" so far... to be fixed*/
-    overflow-x: hidden;
-  }
-
-  /*will implement shrinking header next*/
-  header {
-    background-color: rgb(122, 141, 170);
-    text-align: center;
-    font-size: 35px;
-    color: white;
-  }
-  /*header id for header test*/
-  /*sticky nav will be done next so it doesn't dissapear lol*/
-  #header {
-    /*slightly diff color to separate from main bckgrd*/
-    background-color: rgb(140, 162, 194); 
-    padding: 30px 10px; 
-    color: rgb(198, 239, 253);
-    text-align: center; 
-    font-size: 45px; 
-    font-weight: bold;
-    position: sticky; 
-    top: 0;
-    z-index: 1;
-    width: 100%; 
-    transition: 0.2s; 
-  }
-
-  /*Text under the main portion of the Header*/
-  .subtitle{
-    font-size: 25px;
-    margin-bottom: 35px;
-    color:rgb(198, 239, 253);
   }
 
   .navbar {
@@ -68,14 +35,41 @@
     background-color: #0483aa;
   }
 
+  /*will implement shrinking header next*/
+  header {
+    background-color: rgb(122, 141, 170);
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  /*Text under the main portion of the Header*/
+  .subtitle{
+    font-size: 25px;
+    margin-bottom: 35px;
+    color:rgb(198, 239, 253);
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  /*not really a navigation bar now...*/
+  nav {
+    float: left;
+    width: 20%;
+    height: auto; 
+    background: rgb(168, 167, 167);
+    padding: 20px;
+    padding-top:0px;
+  }
+
   /*redesigning "article" column setup, I'll try to line it up with the nav soon*/
   .row {
-    display: flex;  
+    display: flex;
   }
+  
   .column-left {
     flex: 25.5%;
     background: rgb(168, 167, 167);
     padding: 20px;
+    padding-top:0px;
   }
   /*text content*/
   .column-right{
@@ -84,13 +78,6 @@
     background-color: #d6d4d4;
     height: 50%; 
     font-size: large;
-  }
-
-  .speech{
-    font-weight: bolder;
-    text-align: center; 
-    margin-top: 1%; 
-    margin-bottom: 0%;
   }
   
   /* Style the footer */
@@ -107,50 +94,26 @@
     margin-right: auto;
     -ms-transform: translateY(+10%);
     transform: translateY(+10%);
-    padding-left: 3%;
   }
 
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-  @media (max-width: 1320px) {
-    
-    .speech{
-      text-align: center; 
-      margin-top: 2%; 
-      margin-bottom: 2%;
-    }
-    
+  @media (max-width: 1200px) {
+
     .center {
       display: block;
-      margin-left:auto;
-      margin-right:auto;
-      min-width: 330px;
+      margin-left: auto;
+      margin-right: auto;
       -ms-transform: translateY(-2%);
       transform: translateY(-2%);
     }
-    .column-left {
-      flex: 25.5%;
-      background: rgb(168, 167, 167);
-      padding-top:0px;
-      
-    }
-    .column-right{
-      flex: 74.5%;
-      padding: 20px;
-      padding-left: 25px;
-      background-color: #d6d4d4;
-      height: 50%; 
-      font-size: large;
-    }
-    
   }
   @media screen and (max-width: 550px) {
-
     .navbar a {
       float: none;
       display: block;
       width: 100%;
-      text-align: left;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
     }
-    
   }
 
+  /*trying to add modal images*/
