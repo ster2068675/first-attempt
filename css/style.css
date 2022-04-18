@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(122, 141, 170);
@@ -21,10 +21,10 @@
   #header {
     /*slightly diff color to separate from main bckgrd*/
     background-color: rgb(140, 162, 194); 
-    padding: 30px 10px; 
-    color: rgb(198, 239, 253);
+    padding: 3px 0;
+    color: rgb(220, 245, 253);
     text-align: center; 
-    font-size: 45px; 
+    font-size: 35px; 
     font-weight: bold;
     position: sticky; 
     top: 0;
@@ -35,9 +35,10 @@
 
   /*Text under the main portion of the Header*/
   .subtitle{
-    font-size: 25px;
-    margin-bottom: 35px;
+    font-size: 15px;
+    /*margin-bottom: 35px;*/
     color:rgb(198, 239, 253);
+    transition: 0.4s;
   }
 
   .navbar {
@@ -96,7 +97,7 @@
   /* Style the footer */
   footer {
     background-color: rgb(122, 141, 170);
-    padding-top: 25px;
+    padding-top: 20px;
     text-align: center;
     color: white;
   }

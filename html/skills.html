@@ -4,29 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel= "stylesheet" href= "../css/style.css">
     <script src="https://kit.fontawesome.com/ec37b87268.js" crossorigin="anonymous"></script>
+    <script src="../js/shrink.js"></script> <!-- not too sure about the defer, but it helped in my other project w js -->
     <title>Skills</title>
 </head>
 <body>
+  <!-- Testing Shrinking header
     <header>
         <h2>Projects</h2>
         <h1 class="subtitle">And some of the skills I picked up along the way...</h1>
-    </header>
-    <!--<i class="fa-solid fa-file-code"></i>-->
-    <!-- Still working on content layout -->
-    <a href="https://github.com/ster2068675/Sterlings-Stuff">
-    <img src="../img/sterlingsStuff.png" width="750" height="445" class="center" alt="An image of a site I put together last semester (first real attempt w/ HTML & CSS)">
-    </a>
+    </header> -->
+
+    <div id="header">Projects 
+     <p class="subtitle" id="sub">And some of the skills I picked up along the way...</p> 
+    </div>
+    
+
+    <div class="navbar">
+      <!-- Change active class on other pages -->
+      <a href="index.html">Home</a>
+      <a class="active" href="skills2.html">Projects</a>
+      <a href="work.html">Experience</a>
+      <a href="extra.html">Extracurriculars</a>
+    </div>
     <br>
-    <a href="https://github.com/ster2068675/Sterlings-Stuff">
-    <img src="../img/sterlingsStuff2.png" width="750" height="445" class="center">
-    </a>
-    <br>
-    <br>
-    <a href="https://github.com/ster2068675/KittyGuess">
-    <img src="../img/guessThatKitty.png" width="750" height="445" class="center" alt="An image of another site I put together last semester called Guess That Kitty!">
-    </a>
-    <br>
+    <!-- Start of new BootStrap -->
+
+    <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="../img/sterV2.png" alt="An image of a site I put together last semester (first real attempt w/ HTML & CSS)">
+          <div class="card-body">
+            <h5 class="card-title">Sterling's Stuff</h5>
+            <p class="card-text">A small personal site I put together for my first design class</p>
+            <p class="card-text"><small class="text-muted">Completed Oct 2021</small></p>
+            <a href="#" class="btn btn-primary float-right">View Project</a>
+            <!-- Removing to save condensed clutter until I can split the two buttons
+            <a href="https://github.com/ster2068675/Sterlings-Stuff" class="btn btn-primary float-right">View GitHub</a> -->
+          </div>
+        </div>
+        
+        <!-- This will become a second preview image for the first card
+        <div class="card">
+          <img class="card-img-top" src="../img/sterlingsStuff2.png">
+          <div class="card-body">
+            <h5 class="card-title">Sterling Stuff2</h5>
+            <p class="card-text">Secondary preview/thumbnail</p>
+            <p class="card-text"><small class="text-muted">Completed Nov 2021</small></p>
+          </div>
+        </div> -->
+
+        <div class="card">
+          <img class="card-img-top" src="../img/gtkV2.png" alt="An image of another site I put together last semester called Guess That Kitty!">
+          <div class="card-body">
+            <h5 class="card-title">Guess That Kitty!</h5>
+            <p class="card-text">A simple HTML & JS game site created to explore the fundamentals of responsive web design</p>
+            <p class="card-text"><small class="text-muted">Completed Nov 2021</small></p>
+            <!-- remember to actually come back and add a link to this button!! -->
+            <a href="#" class="btn btn-primary float-right">View Project</a>
+            <a href="https://github.com/ster2068675/KittyGuess" class="btn btn-primary float-right">View GitHub</a>
+          </div> 
+        </div>
+      </div>
+
+    <!-- End of new BootStrap -->
+
+    <!--<i class="fa-solid fa-file-code"></i> --icon wip-->
+    
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

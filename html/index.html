@@ -7,30 +7,30 @@
     <!--Adding stylesheet link for bootstrap5 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
     <link rel= "stylesheet" href= "../css/style.css">
     <script src="https://kit.fontawesome.com/ec37b87268.js" crossorigin="anonymous"></script>
+    <script src="../js/shrink.js"></script>
   </head>
   <body>
-  <header>
-    <!-- switch headers to proper hierarchy! -->
-    <h2 style="padding-top: 20px;">Sterling Brown</h2>
-    <h1 class="subtitle">3rd Year - InfoTech Major / Graphic Design Minor - Presidential Scholar</h1>
-  </header>
+  
+  <!-- Consider shrinking header underneath sticky nav bar... see if the js will allow both tho... --> 
+  <div id="header">Sterling Brown 
+    <p class="subtitle" id="sub">3rd Year - InfoTech Major / Graphic Design Minor - Presidential Scholar</p> 
+  </div>
 
   <div class="navbar">
     <!-- Change active class on other pages -->
     <a class="active" href="index.html">Home</a>
-    <a href="skills2.html">Projects</a>
+    <a href="skills.html">Projects</a>
     <a href="work.html">Experience</a>
     <a href="extra.html">Extracurriculars</a>
   </div>
 
   <div class="row">
     <div class="column-left">
-      <h6 class="speech">"Thanks for stopping by, your feedback is greatly appreciated!"</h6>
-      <!--Trying to figure out what's causing the weirdly large space between these elements...-->
-      <img src="../img/me.jpg" class="center" width="300" height="350" alt="An image of a site I put together last semester (first real attempt w/ HTML & CSS)">
+      <!-- Making slight tag changes to adhere to html standards -->
+      <p class="speech">"Thanks for stopping by, your feedback is greatly appreciated!"</p>
+      <img src="../img/me.jpg" class="center" width="300" height="350" alt="Senior Year Sterling at CCHS Prom, 2019">
     </div>
 
     <div class="column-right">
@@ -42,12 +42,9 @@
     </div>
   </div>
 
-
   <footer>
     <p>Contacts & Socials   
-      <!-- Email Icon is blue since it's anchored to a different type of link?-->
       <a href="mailto:sb3160@mynsu.nova.edu"><i class="fa-solid fa-envelope fa-2xl"></i></a>
-      <!-- Need to look at fix for color issue  -->
       <a href="http://www.instagram.com/just__ster"> <i class="fa-brands fa-instagram fa-2xl"></i></a>
       <a href="https://twitter.com/_Ster130_"> <i class="fa-brands fa-twitter fa-2xl"></i></a>
       <a href="https://github.com/ster2068675"> <i class="fa-brands fa-github fa-2xl"></i></a>
