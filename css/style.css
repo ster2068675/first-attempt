@@ -102,6 +102,10 @@
     color: white;
   }
 
+  a {
+    color: #0483aa;
+  }
+
   .center {
     display: block;
     margin-left: auto;
