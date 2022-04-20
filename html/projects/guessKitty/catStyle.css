@@ -1,0 +1,101 @@
+body{
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+}
+.header{
+    background-color: aliceblue;
+    border-radius: 15px;
+    line-height: 95px;
+    height: 100px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    text-align:center;
+    font-family: 'Comic Sans MS';
+    margin-bottom: 20px;
+}
+.score{
+    background-color: aliceblue;
+    position: fixed;
+    left: 32px;
+    z-index: 0;
+    border-radius: 15px;
+    line-height: 32px;
+    height: 130px;
+    width: 11%;
+    margin-right: auto;
+    margin-left: 0;
+    font-size: 15px;
+    text-align:left;
+    font-family: 'Comic Sans MS';
+    margin-bottom: 20px;
+    padding-left: 8px;
+}
+.showAns{
+    background-color: powderblue;
+    border-radius: 25px;
+    margin-top:5px;
+    margin-left:5px;
+    float:left;
+}
+.nextQ{
+    background-color:darksalmon;
+    border-radius: 25px;
+    margin-top:5px;
+    margin-right:5px;
+    float:right;
+}
+.buttons{
+    width:100%;
+    background-color: beige;
+}
+.q-box{
+    background-color: aliceblue;
+    border-radius: 15px;
+    max-height:auto;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.a-box{
+    background-color: aliceblue;
+    border-radius: 15px;
+    max-height:auto;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:10px;
+    padding: 5px;
+    text-align: center;
+}
+.answers{
+    display: inline;
+    vertical-align: middle;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.choice{
+    margin-right:60px;
+    margin-left:60px;
+    border-radius: 15px;
+    background-color: darkseagreen;
+    color: aliceblue;
+}
+
+.container{
+    background-color:darkseagreen;
+    border-radius: 15px;
+    max-height:auto;
+    height:50;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    text-align: center;
+    padding-top: 5px;
+    margin-top:3px;
+}

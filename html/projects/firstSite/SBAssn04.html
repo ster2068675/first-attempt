@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<!-- Sterling Brown Assn04: My Web Page -->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Sterling Brown Webpage </title>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<style type="text/css">
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: lightskyblue;
+    }
+
+    p {
+        margin: auto;
+    }
+
+    nav {
+        font-weight: bold;
+        color: white;
+        border: 2px solid cadetblue;
+        text-align: center;
+        width: 80%;
+        background-color: cadetblue;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+    }
+
+    nav ul {
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        color: midnightblue;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        border-top: 3px solid cadetblue;
+        border-bottom: 2px solid cadetblue;
+        background-color: azure;
+        width: auto;
+    }
+
+    nav ul li:hover div {
+        background-color: lightcyan;
+        display: block;
+    }
+
+    nav ul li:hover span {
+        color: white;
+    }
+
+    nav ul li:hover {
+        background-color: cornflowerblue;
+        color: midnightblue;
+    }
+
+    hr {
+        background-color: black;
+        height: 5px;
+
+    }
+
+    footer {
+        text-align: center;
+        display: block;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        padding: 3px;
+        background-color: cadetblue;
+        color: white;
+    }
+
+    div.center {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    div.nothing {
+        background-color: midnightblue;
+        color: azure;
+
+    }
+
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    tr {
+        width: auto;
+    }
+
+    .hidden {
+        display: none;
+
+    }
+</style>
+
+
+<body>
+    <div style="text-align: center;" class="nothing">
+        <h1>Sterling's Stuff!</h1>
+    </div>
+
+    <img src="comp.png" width="100" height="100" alt="a computer" class="comp">
+    <img src="keyboard.png" width="100" height="100" alt="a keyboard" class="keys">
+    <div class="center">
+        <div class="row">
+
+            <div class="column">
+                <img src="art.JPG" width="300" height="345" alt="Some artwork from last semester">
+            </div>
+            <div class="column">
+                <img src="me.jpg" width="300" height="345" alt="A pic from prom 2019">
+            </div>
+            <div class="column">
+                <img src="IMG_2351.JPG" width="400" height="270" alt="Me and my BF at Wynwood">
+            </div>
+        </div>
+    </div>
+
+    <nav>About Me!
+        <ul>
+            <li>My Favorite Song
+                <div class="hidden">
+                    <audio controls>
+
+                        <source src="bensound-funkysuspense.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                        <!-- https://search.creativecommons.org/photos/1601b234-444a-43ba-abc0-dde137d487ec -->
+                    </audio>
+                </div>
+            </li>
+            <li>My Favorite sites
+                <div class="hidden">
+                    <p><a href="http://www.youtube.com">Youtube</a></p>
+                    <p><a href="http://www.twitch.com">Twitch</a></p>
+                    <p><a href="http://www.twitter.com">Twitter</a></p>
+
+                </div>
+            </li>
+            <li>My Favorite Books
+                <div class="hidden">
+                    <img src="pj.jpg" width="250" height="250" alt="Percy Jackson & The Olympians">
+                    <!-- Source: https://www.amazon.com/The-Lightning-Thief-Rick-Riordan-audiobook/dp/B000A5CJSQ/ref=sr_1_1?crid=3CO1I66FQYXXL&dchild=1&keywords=percy+jackson&qid=1633319490&s=audible&sprefix=percy+ja%2Caudible%2C184&sr=1-1 -->
+                    <img src="hp.jpg" width="200" height="250" alt="Harry Potter and the Sorcerer's Stone">
+                    <!-- Source: https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Book/dp/B017V4IMVQ/ref=sr_1_1?dchild=1&keywords=harry+potter&qid=1633319472&s=audible&sr=1-1 -->
+                    <img src="magic.jpg" width="250" height="250" alt="The Magic Thief">
+                    <!-- Source: https://www.amazon.com/The-Magic-Thief-Sarah-Prineas-audiobook/dp/B003NYOBIM/ref=sr_1_2?dchild=1&keywords=magic+thief&qid=1633319447&sr=8-2 -->
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <nav> Some of my Favorite Things to Eat!
+        <ul>
+            <li>Fajita Tacos
+                <div class="hidden">
+                    <img src="tacos.jpg" width="250" height="200" alt="Fajita Tacos">
+                    <!-- Source: https://search.creativecommons.org/photos/a778b920-c4c6-4420-a677-6433fc69c2c7 -->
+                </div>
+            </li>
+            <li>Ice Cream
+                <div class="hidden">
+                    <img src="helado.jpg" width="200" height="250" alt="Ice Cream">
+                    <!-- Source: https://search.creativecommons.org/photos/a778b920-c4c6-4420-a677-6433fc69c2c7 -->
+                </div>
+            </li>
+            <li>Macaroni & Cheese
+                <div class="hidden">
+                    <img src="mac.jpg" width="250" height="200" alt="Macaroni & Cheese">
+                    <!-- https://search.creativecommons.org/photos/1601b234-444a-43ba-abc0-dde137d487ec -->
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+
+    <hr>
+    <div class="center">
+        <caption><strong>My Fall 2021 Schedule</strong></caption>
+        <table border="1" bgcolor="azure" class="center">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Days</th>
+                    <th>Course #</th>
+                    <th>Professor</th>
+                    <th>Credits</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Graphic Design</td>
+                    <td>N/A - Online</td>
+                    <td>ARTS 2410</td>
+                    <td>Ahmed</td>
+                    <td>3.0</td>
+
+                </tr>
+                <tr>
+                    <td>Web Programming Design</td>
+                    <td>T/TH</td>
+                    <td>CSIS 3020</td>
+                    <td>Kumar</td>
+                    <td>3.0</td>
+
+                </tr>
+                <tr>
+                    <td>Legal & Ethical Aspects of Computers</td>
+                    <td>T/TH</td>
+                    <td>CSIS 3023</td>
+                    <td>Barreto</td>
+                    <td>3.0</td>
+
+                </tr>
+                <tr>
+                    <td>Operating Systems Concepts</td>
+                    <td>M/W</td>
+                    <td>CSIS 3810</td>
+                    <td>Simco</td>
+                    <td>3.0</td>
+
+                </tr>
+                <tr>
+                    <td>Introduction to Psychology</td>
+                    <td>M/W/F</td>
+                    <td>PSYC 1020</td>
+                    <td>Razza</td>
+                    <td>3.0</td>
+
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>Total # of Credits: </th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>15</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+
+    <footer>
+        Created by Sterling Brown <address>sb3160@mynsu.nova.edu</address>
+    </footer>
+
+</body>
+
+</html>
