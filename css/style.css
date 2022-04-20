@@ -102,9 +102,7 @@
     color: white;
   }
 
-  a {
-    color: #0483aa;
-  }
+  a {color: #0483aa;}
 
   .center {
     display: block;
